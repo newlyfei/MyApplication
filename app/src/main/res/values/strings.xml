@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidDemo</string>
+    <string name="title_activity_cell">Cell</string>
+</resources>
