@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button=(Button)findViewById(R.id.CellButton);
-        button.setOnClickListener(new MyButtonListener());
+//        Button button=(Button)findViewById(R.id.CellButton);
+//        button.setOnClickListener(new MyButtonListener());
     }
 
     //监听器类

@@ -7,5 +7,6 @@
     <color name="blue">#00FF00</color>
     <color name="white">#FFFFFF</color>
     <color name="border_clo">#FF4081</color>
+    <color name="tab_textview">#FF4081</color>
     <color name="text_clo">#FF4081</color>
 </resources>
