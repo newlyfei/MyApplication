@@ -13,19 +13,17 @@
             android:orientation="vertical" >
 
         <LinearLayout
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:layout_weight="1"
+                android:layout_height="100dp"
                 android:background="#FFFFFF"
                 android:orientation="vertical" >
 
             <LinearLayout
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginLeft="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:layout_weight="1"
+                    android:layout_height="35dp"
                     android:background="@drawable/border_bottom"
                     android:orientation="horizontal" >
 
@@ -38,11 +36,51 @@
             </LinearLayout>
 
             <LinearLayout
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginLeft="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:layout_weight="1"
+                    android:layout_height="35dp"
+                    android:background="#FFFFFF"
+                    android:orientation="horizontal" >
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="项目二"
+                        android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical" >
+
+            <LinearLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/border_bottom"
+                    android:orientation="horizontal" >
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="项目一"
+                        android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
                     android:background="#FFFFFF"
                     android:orientation="horizontal" >
 
