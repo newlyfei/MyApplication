@@ -21,18 +21,19 @@
 
             <TextView
                     android:layout_marginTop="20dp"
-                    android:text="8.88"
-                    android:layout_width="wrap_content"
-                    android:layout_height="50dp"
-                    android:layout_gravity="center"
-                    android:id="@+id/textPrice"/>
-
-            <TextView
                     android:text="平均价格"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
                     android:layout_gravity="center"
                     android:id="@+id/textView"/>
+
+            <TextView
+                    android:text="￥8.88"
+                    android:textSize="28dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/textPrice"/>
 
         </LinearLayout>
 
@@ -52,16 +53,15 @@
                         android:orientation="horizontal">
 
                     <TextView
-                            android:text="最高价格"
+                            android:text="最高价格："
+                            android:layout_gravity="center_vertical"
                             android:layout_width="wrap_content"
-                            android:layout_height="50dp"
-                            android:layout_gravity="center"/>
+                            android:layout_height="50dp"/>
 
                     <TextView
                             android:text="8.88"
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
-                            android:layout_gravity="center"
                             android:id="@+id/maxPrice"/>
 
                 </LinearLayout>
@@ -75,7 +75,7 @@
                         android:orientation="horizontal">
 
                     <TextView
-                            android:text="最低价格"
+                            android:text="最低价格："
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"/>
 
