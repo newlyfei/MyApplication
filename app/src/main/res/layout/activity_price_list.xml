@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#EEEEEE"
+            android:orientation="vertical">
+
+        <RelativeLayout android:layout_marginTop="10dp"
+                        android:layout_width="match_parent" android:layout_height="30dp"
+                        android:background="#FFFFFF">
+
+            <TextView android:id="@+id/nameSitus2" android:text="滑营村"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_centerVertical="true" android:layout_marginLeft="15dp"/>
+
+            <TextView android:id="@+id/kmSitus2" android:text="0.8km"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_centerVertical="true" android:layout_alignParentRight="true" android:layout_marginRight="15dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+                android:layout_marginTop="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#FFFFFF"
+                android:orientation="horizontal">
+
+            <!-- 平均价格 -->
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                <TextView
+                        android:text="￥8.88"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/text_clo"
+                        android:id="@+id/avgPrice2"/>
+
+                <TextView
+                        android:text="均价"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/text_subscript"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <!-- 最高价格 -->
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                <TextView
+                        android:text="￥8.88"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/text_clo"
+                        android:id="@+id/maxPrice2"/>
+                <TextView
+                        android:text="高价"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/text_subscript"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <!-- 最低价格 -->
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                <TextView
+                        android:text="￥8.88"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/text_clo"
+                        android:id="@+id/minPrice2"/>
+                <TextView
+                        android:text="低价"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/text_subscript"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+            <TextView
+                    android:text="以上信息仅供参考，实际单价以交易价格为准！"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/text_subscript"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/annotationView2"/>
+
+            <TextView
+                    android:text="提交人数：23"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/text_subscript"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/userNumView2"/>
+
+        </LinearLayout>
+
+
+
+        <RelativeLayout android:layout_marginTop="10dp"
+                        android:layout_width="match_parent" android:layout_height="30dp"
+                        android:background="#FFFFFF">
+
+            <TextView android:id="@+id/nameSitus" android:text="十八里铺"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_centerVertical="true" android:layout_marginLeft="15dp"/>
+
+            <TextView android:id="@+id/kmSitus" android:text="7.8km"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_centerVertical="true" android:layout_alignParentRight="true" android:layout_marginRight="15dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+                android:layout_marginTop="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#FFFFFF"
+                android:orientation="horizontal">
+
+            <!-- 平均价格 -->
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                <TextView
+                        android:text="￥8.88"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/text_clo"
+                        android:id="@+id/avgPrice"/>
+
+                <TextView
+                        android:text="均价"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/text_subscript"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <!-- 最高价格 -->
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                <TextView
+                        android:text="￥8.88"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/text_clo"
+                        android:id="@+id/maxPrice"/>
+                <TextView
+                        android:text="高价"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/text_subscript"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <!-- 最低价格 -->
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                <TextView
+                        android:text="￥8.88"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/text_clo"
+                        android:id="@+id/minPrice"/>
+                <TextView
+                        android:text="低价"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/text_subscript"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+            <TextView
+                    android:text="以上信息仅供参考，实际单价以交易价格为准！"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/text_subscript"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/annotationView"/>
+
+            <TextView
+                    android:text="提交人数：23"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/text_subscript"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/userNumView"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/activity_bottom_nav"/>
+
+</LinearLayout>
