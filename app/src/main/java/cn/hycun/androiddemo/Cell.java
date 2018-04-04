@@ -1,18 +1,14 @@
-package com.androiddemo;
+package cn.hycun.androiddemo;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
 
 public class Cell extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cell);
+        setContentView(cn.hycun.androiddemo.R.layout.activity_cell);
     }
 
 }
